@@ -2,13 +2,29 @@
   box-sizing: border-box;
 }
 
+.headerBlock{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  height:fit-content;
+  justify-content: center;
+  align-items: center;
+}
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
 }
 
+footer{
+
+  background-color: black;
+  display: block;
+  position: static;
+  bottom: 100 vh;
+}
 h1,
 h2,
 h3,
@@ -21,3 +37,143 @@ h6 {
 p {
   margin: 0;
 }
+
+.buttonTitles{
+  display: block;
+}
+
+#aboutMebar, #workbar, #contactMebar, #resumebar{
+  padding: 20px;
+  font-size: 20px;
+}
+
+.overallcontainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonsinTitle{
+  display: flex;
+}
+
+
+.barpos{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.name{
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.subtitle{
+  font-size: 20px;
+}
+
+.space{
+  background-color: rgb(0, 0, 0);
+  width: 5px;
+}
+
+.aboutmeSection{
+  display: grid;
+  grid-template-columns: 25% 5% 70%;
+  grid-template-rows: 100%;
+  grid-template-areas:
+  "aboutMe space aboutMeArea";
+}
+
+#aboutMe{
+  grid-area: aboutMe;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+#aboutMeArea{
+  grid-area: aboutMeArea;
+  justify-content: center;
+}
+
+.workSection{
+  display: grid;
+  grid-template-columns: 25% 5% 70%;
+  grid-template-rows: 100%;
+  grid-template-areas:
+  "work space workArea";
+}
+
+#workArea{
+  grid-area: workArea;
+  display: flex;
+  flex-direction: row;
+}
+
+#work{
+  grid-area: work;
+  text-align: center;
+  font-size: 25px;
+}
+
+.contactMeSection{
+  display: grid;
+  grid-template-columns: 25% 5% 70%;
+  grid-template-rows: 100%;
+  grid-template-areas:
+  "contact space contactMeArea";
+}
+
+#contact{
+  grid-area: contact;
+}
+
+#contactMeArea{
+  grid-area: contactMeArea;
+}
+
+.resumeSection{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100%;
+  grid-template-areas:
+  "resume resumeArea";
+}
+
+#resume{
+  grid-area: resume;
+} 
+
+#resumeArea{
+  grid-area: resumeArea;
+}
+
+.mainGrid{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 30px;
+} 
+
+.jakeEatery, .furnitureWeb, .sortable{
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+.imgHolder{
+  padding: 1.2rem;
+}
+
+.imgHolder :hover{
+  transform: scale(1.2);
+  background-color: grey;
+  display: flex;
+  justify-content: left;
+}
+
