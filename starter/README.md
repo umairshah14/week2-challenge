@@ -1,29 +1,26 @@
-# Unit 2 Challenge: Portfolio SUBMISSION
+# My-portfolio-page
 
-## The Task
+## Description
+I created this repository to hold my submission for the week 2 challenge which was to create a Portfolio Page to showcase projects that i've done to potential employers
 
-This week, you'll build a portfolio page, which you can add to as the course progresses. 
+This task helped me further solidify my understandings and knowledge of basic html elements and css classes & id's. In my page i used semantic html elements to create my portfolio
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
- 
-With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+Below is a screenshot of what the project looks like
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+![screenshot of the project](./images/Screenshot%202022-12-16%20at%2020.15.11.png)
 
-## Acceptance Criteria
+## Usage
 
-* When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
-* When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
-* When viewing the section about your work then the section contains titled images of your applications
-* When presented with the your first application then that application's image should be larger in size than the others
-* When images of the applications are clicked then the user is taken to that deployed application
-* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
+To use and try out this project, first clone the repository from GitHub with the following link: https://github.com/umairshah14/week2-challenge.git
 
-## Live page
+## Credits
 
-https://umairshah14.github.io/week2-challenge/starter/index.html
+Umair Shah
 
-## What i did
+## Sources & Tutorials
 
-i attempted to follow all the acceptance criteria by creating a single page website that includes details about me such as name, contact, resume and work. I struggled to implement media queries however i am learning on how to implement it for future projects.
+I used the following tutorials:
 
+https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
+https://www.youtube.com/watch?v=qz0aGYrrlhU&ab_channel=ProgrammingwithMosh
+https://www.tutorialspoint.com/html/index.htm
